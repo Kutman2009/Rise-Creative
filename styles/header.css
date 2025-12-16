@@ -1,0 +1,93 @@
+/* #header {
+position: relative;
+}
+/* .background{
+background-image: url(../img/узоры.png);
+  background-color: var(--background);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+  width: 100%;
+  height: 900px;
+}
+ /* обратись к background-image и дай ему position: absolute; */
+/* .background::before {
+
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 100000000000px;
+  left: 0;
+  width: 100%;
+  height: 900px;
+  background-image: url(../img/узоры.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+  z-index: -1;
+  opacity: 0.1;
+}  */
+
+#header {
+    background-color: var(--background);
+    padding-block: 20px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .nav{
+        display: flex;
+        gap: 40px;
+        /* как сделать прозрачную линию снизу, чтоб при transition было плавно */
+        a{
+            font-weight: 500;
+            color: var(--a-tag);
+            color: var(--a-tag);
+            padding-bottom: 3px;
+            border-bottom: 2px solid transparent;
+            transition: border-bottom 0.3s;
+            &:hover{
+                border-bottom: 2px solid var(--a-tag);
+            }
+        }
+    }
+    .btn-sign{
+        display: flex;
+        gap: 13px;
+        button:first-child{
+        font-size: var(--spacing-small);
+        font-weight: 500;
+        padding: 8px 23px;
+        background: none;
+        border-radius: 25px;
+        color: #FFFFFF;
+        border: 1px solid #FFFFFF;
+        font-weight: 600;
+        transition: background-color 0.3s;
+        &:hover{
+            background-color: var(--yellow);
+            color: black;
+        }
+        }
+        button:last-child{
+        font-size: var(--spacing-small);
+        font-weight: 500;
+        padding: 8px 29px;
+        background: var(--yellow);
+        border-radius: 25px;
+        color: black;
+        border: none;
+        font-weight: 600;
+        transition: background-color 0.3s;
+        &:hover{
+            background-color: var(--dark-light);
+            color: white;
+        }
+        }
+    }
+    
+}
+
+
