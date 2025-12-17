@@ -1,0 +1,618 @@
+@media (max-width: 1280px){
+    
+    /* HEADER */
+    /* HEADER */
+
+
+    /* HERO */
+    
+    .background-line{
+        display: none;
+    }
+    .hero-content{
+        .hero{
+            .hero-text{
+                h1{
+                   font-size: 45px; 
+                }
+                .p-hero{
+                    font-size: 15px;
+                }
+                .btn-hero{
+                    button{
+                        font-size: 14px;
+                        padding: 10px 25px;
+                        white-space: nowrap;
+                    }
+                    button:first-child{
+                        display: flex;
+                        align-items: center;
+                        img{
+                            width: 20px;
+                        }
+                    }
+                }
+                .general{
+                    gap: 30px;
+                    p{
+                        font-size: 38px;
+
+                    }
+                    span{
+                        font-size: 14px;
+                    }
+                }
+                
+            }
+            .hero-img{
+                width: 600px;
+                .hero-sub-img{
+                    width: 155px;
+                    top: 270px;
+                }
+            }
+        }
+        .logo-company{
+            gap: 30px;
+        }
+    }
+
+    /* HERO */
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1040px){
+
+
+    /* HERO */
+
+    .hero-content{
+        .hero{
+            .hero-text{
+                h1{
+                   font-size: 30px; 
+                   line-height: 40px;
+                }
+                .p-hero{
+                    font-size: 12;
+                    padding-top: 20px;
+                }
+                .btn-hero{
+                    button{
+                        font-size: 12px;
+                        padding: 8px 20px;
+                        white-space: nowrap;
+                    }
+                    button:first-child{
+                        display: flex;
+                        align-items: center;
+                        img{
+                            width: 16px;
+                        }
+                    }
+                }
+                .general{
+                    margin-left: -17px;
+                    gap: 10px;
+                    p{
+                        font-size: 25px;
+                        line-height: 60px;
+                        padding-top: 50px;
+                    }
+                    span{
+                        font-size: 12px;
+                    }
+                }
+                
+            }
+            .hero-img{
+                width: 450px;
+                margin-top: 30px;
+                .hero-sub-img{
+                    width: 135px;
+                    top: 240px;
+                }
+            }
+        }
+        .logo-company{
+            gap: 30px;
+        }
+        .logo-company{
+            img:nth-child(5){
+                display: none;
+            }
+            img:nth-child(3){
+                display: none;
+            }
+        }
+    }
+
+
+    /* HERO */
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 800px){
+
+    /* HEADER */
+
+    #header{
+
+        .header{
+            .logo{
+                img{
+                    width: 80px;
+                }
+            }
+            .nav{
+                gap: 10px;
+                a{
+                    font-size: 13px;
+                }
+            }
+            .btn-sign{
+                button{
+                    font-size: 10px;
+                    padding: 5px 10px;
+                }
+                button:first-child{
+                    padding: 5px 10px;
+                    
+                    
+                }
+            }
+        }
+    }
+
+
+
+
+    /* HEADER */
+
+
+
+
+
+
+    /* HERO */
+
+.hero-content{
+        .hero{
+            .hero-text{
+                h1{
+                   font-size: 20px; 
+                   line-height: 30px;
+                }
+                .p-hero{
+                    font-size: 12px;
+                    padding-top: 10px;
+                    line-height: 20px;
+                    padding-bottom: 20px;
+                    width: 160px ;
+                }
+                .btn-hero{
+                    gap: 0;
+                    button{
+                        font-size: 8px;
+                        padding: 6px 16px;
+                        white-space: nowrap;
+                    }
+                    button:first-child{
+                        display: flex;
+                        align-items: center;
+                        padding: 1px 10px;
+                        img{
+                            width: 13px;
+                        }
+                    }
+                    button:last-child{
+                        display: flex;
+                        align-items: center;
+                        padding: 10px 10px;
+                        img{
+                            width: 20px;
+                            padding-right: 3px;
+                        }
+                    }
+                }
+                .general{
+                    margin-left: -17px;
+                    gap: 10px;
+                    p{
+                        font-size: 14px;
+                        line-height: 50px;
+                        padding-top: 20px;
+                    }
+                    span{
+                        font-size: 10px;
+                    }
+                }
+                
+            }
+            .hero-img{
+                width: 310px;
+                margin-top: 30px;
+                .hero-sub-img{
+                    width: 90px;
+                    top: 180px;
+                    left: 40px;
+                }
+            }
+        }
+        .logo-company{
+            gap: 20px;
+            img{
+                width: 90px;
+            }
+        }
+        .logo-company{
+            img:nth-child(5){
+                display: none;
+            }
+            img:nth-child(3){
+                display: none;
+            }
+        }
+    }
+
+    /* HERO */
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 560px){
+
+
+    /* HEADER */
+
+    #header{
+
+        .header{
+            .logo{
+                img{
+                    width: 40px;
+                }
+            }
+            .nav{
+                gap: 3px;
+                a{
+                    font-size: 10px;
+                }
+            }
+            .btn-sign{
+                button{
+                    font-size: 8px;
+                    font-weight: 200;
+                    white-space: nowrap;
+                    padding: 2px 8px;
+                }
+                button:first-child{
+                    padding: 2px 8px;
+                    
+                    
+                }
+            }
+        }
+    }
+
+
+
+
+    /* HEADER */
+
+
+
+
+
+
+    /* HERO */
+
+.hero-content{
+        .hero{
+            .hero-text{
+                h1{
+                   font-size: 15px; 
+                   line-height: 20px;
+                }
+                .p-hero{
+                    font-size: 8px;
+                    padding-top: 10px;
+                    line-height: 10px;
+                    padding-bottom: 15px;
+                    width: 90px ;
+                }
+                .btn-hero{
+                    gap: 5px    ;
+                    button{
+                        font-size: 6px;
+                        padding: 1px 1px;
+                        white-space: nowrap;
+                        font-weight: 100;
+                    }
+                    button:first-child{
+                        display: flex;
+                        align-items: center;
+                        padding: 1px 1px;
+                        img{
+                            width: 8px;
+
+                        }
+                    }
+                    button:last-child{
+                        display: flex;
+                        align-items: center;
+                        padding: 1px 1px;
+                        img{
+                            width: 20px;
+                            padding-right: 3px;
+                        }
+                    }
+                }
+                .general{
+                    margin-left: -17px;
+                    gap: 5px;
+                    p{
+                        font-size: 12px;
+                        line-height: 40px;
+                        padding-top: 10px;
+                    }
+                    span{
+                        font-size: 6px;
+                    }
+                }
+                
+            }
+            .hero-img{
+                width: 210px;
+                margin-top: 10px;
+                .hero-sub-img{
+                    width: 60px;
+                    top: 90px;
+                    left: 20px;
+                }
+            }
+        }
+        .logo-company{
+            gap: 20px;
+            padding-top: 30px;
+            padding-bottom: 10px;
+            img{
+                width: 60px;
+            }
+        }
+        .logo-company{
+            img:nth-child(5){
+                display: none;
+            }
+            img:nth-child(3){
+                display: none;
+            }
+            img:nth-child(4){
+                display: none;
+            }
+        }
+    }
+
+    /* HERO */
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 380px){
+
+        /* HEADER */
+
+    #header{
+
+        .header{
+            .logo{
+                img{
+                    width: 40px;
+                }
+            }
+            .nav{
+                gap: 3px;
+                a{
+                    font-size: 8px;
+                }
+            }
+            .btn-sign{
+                button{
+                    font-size: 8px;
+                    font-weight: 200;
+                    white-space: nowrap;
+                    padding: 2px 8px;
+                }
+                button:first-child{
+                    padding: 2px 8px;
+                    
+                    
+                }
+            }
+        }
+    }
+
+
+
+
+    /* HEADER */
+
+
+
+
+
+
+    /* HERO */
+#hero{
+    padding-block: 10px;
+}
+
+.hero-content{
+        .hero{
+            .hero-text{
+                h1{
+                   font-size: 12px; 
+                   line-height: 20px;
+                }
+                .p-hero{
+                    font-size: 4px;
+                    padding-top: 6px;
+                    line-height: 5px;
+                    padding-bottom: 6px;
+                    width: 90px ;
+                }
+                .btn-hero{
+                    gap: 5px    ;
+                    button{
+                        font-size: 6px;
+                        padding: 1px 1px;
+                        white-space: nowrap;
+                        font-weight: 100;
+                    }
+                    button:first-child{
+                        display: flex;
+                        align-items: center;
+                        padding: 1px 1px;
+                        img{
+                            width: 8px;
+
+                        }
+                    }
+                    button:last-child{
+                        display: flex;
+                        align-items: center;
+                        padding: 1px 1px;
+                        img{
+                            width: 10px;
+                            padding-right: 3px;
+                        }
+                    }
+                }
+                .general{
+                    padding-left: 15px;
+                    gap: 5px;
+                    p{
+                        font-size: 5px;
+                        line-height: 40px;
+                        padding-top: 10px;
+                    }
+                    span{
+                        font-size: 4px;
+                        font-weight: 300;
+                    }
+                }
+                
+            }
+            .hero-img{
+                width: 160px;
+                margin-bottom: 40px;
+                .hero-sub-img{
+                    width: 60px;
+                    top: 70px;
+                    left: 20px;
+                }
+            }
+        }
+        .logo-company{
+            gap: 20px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            img{
+                width: 60px;
+            }
+        }
+        .logo-company{
+            img:nth-child(5){
+                display: none;
+            }
+            img:nth-child(3){
+                display: none;
+            }
+            img:nth-child(4){
+                display: none;
+            }
+        }
+    }
+
+    /* HERO */
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 1281px) {
+    #hero{
+    overflow: hidden;
+    }
+}

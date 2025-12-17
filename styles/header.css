@@ -31,19 +31,23 @@ background-image: url(../img/узоры.png);
 #header {
     background-color: var(--background);
     padding-block: 20px;
+    overflow: hidden;
 }
 
 .header{
+    animation: header 2s ease-in-out alternate;
     display: flex;
     justify-content: space-between;
     align-items: center;
     .nav{
         display: flex;
         gap: 40px;
-        /* как сделать прозрачную линию снизу, чтоб при transition было плавно */
         a{
+            font-size: var(--a-tag);
+            
+            position: relative;
+            z-index: 2;
             font-weight: 500;
-            color: var(--a-tag);
             color: var(--a-tag);
             padding-bottom: 3px;
             border-bottom: 2px solid transparent;
@@ -54,10 +58,13 @@ background-image: url(../img/узоры.png);
         }
     }
     .btn-sign{
+        position: relative;
+        z-index: 2;
         display: flex;
         gap: 13px;
         button:first-child{
         font-size: var(--spacing-small);
+        border: none;
         font-weight: 500;
         padding: 8px 23px;
         background: none;
