@@ -203,6 +203,32 @@
 
 
 
+    /* PEOPLE */
+
+
+  .card {
+    width: 48%;
+  }
+
+  .people {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .peo-text {
+    margin-top: 30px;
+    .btn-peo button{
+    margin: 0 auto;
+    margin-top: 20px;
+    }
+  }
+
+  .peo-abs {
+    right: -25px;
+    bottom: -20px;
+  }
+
+    /* PEOPLE */
 
     /* PEOPLE */
 
@@ -447,9 +473,12 @@
 
 
 
+<<<<<<< HEAD
     
 
 
+=======
+>>>>>>> ccf803eeb3de89913cb903988533edb2e802f2fc
     /* PEOPLE */
 
 
@@ -464,6 +493,7 @@
 
     /* PEOPLE */
 
+<<<<<<< HEAD
     /* EXPERT */
 
     #expert {
@@ -518,6 +548,10 @@
     }
 
     /* EXPERT */
+=======
+
+
+>>>>>>> ccf803eeb3de89913cb903988533edb2e802f2fc
 
 
 }
@@ -580,6 +614,9 @@
 
 
     /* HERO */
+#hero{
+    margin-bottom: 40px;
+}
 
     #hero{
         margin-bottom: 40px;
@@ -676,6 +713,7 @@
 
 
 
+<<<<<<< HEAD
 
 
 
@@ -685,6 +723,9 @@
 
 
     /* PEOPLE */
+=======
+        /* PEOPLE */
+>>>>>>> ccf803eeb3de89913cb903988533edb2e802f2fc
 
   .peo-img > img{
     width: 300px;
@@ -729,6 +770,7 @@
 
     /* PEOPLE */
 
+<<<<<<< HEAD
     /* EXPERT */
 
     #expert {
@@ -784,6 +826,8 @@
     /* EXPERT */
 
 
+=======
+>>>>>>> ccf803eeb3de89913cb903988533edb2e802f2fc
 }
 
 
@@ -941,10 +985,15 @@
 
 
 
+<<<<<<< HEAD
     
 
 
     /* PEOPLE */
+=======
+
+        /* PEOPLE */
+>>>>>>> ccf803eeb3de89913cb903988533edb2e802f2fc
     .people {
         display: flex;
         .peo-text {
@@ -966,7 +1015,11 @@
         
     }
     .peo-img img{
+<<<<<<< HEAD
     width: 200px;
+=======
+    width: 268px;
+>>>>>>> ccf803eeb3de89913cb903988533edb2e802f2fc
   }
     .peo-text{
         padding-right: 50px;
@@ -983,6 +1036,7 @@
 
     /* PEOPLE */
 
+<<<<<<< HEAD
     /* EXPERT */
 
     #expert {
@@ -1038,6 +1092,8 @@
     /* EXPERT */
 
 
+=======
+>>>>>>> ccf803eeb3de89913cb903988533edb2e802f2fc
 }
 
 
