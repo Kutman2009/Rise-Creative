@@ -144,6 +144,32 @@
 
 
 
+    /* PEOPLE */
+
+
+  .card {
+    width: 48%;
+  }
+
+  .people {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .peo-text {
+    margin-top: 30px;
+    .btn-peo button{
+    margin: 0 auto;
+    margin-top: 20px;
+    }
+  }
+
+  .peo-abs {
+    right: -25px;
+    bottom: -20px;
+  }
+
+    /* PEOPLE */
 
 
 
@@ -289,6 +315,29 @@
 
     /* HERO */
 
+
+
+
+
+
+    /* PEOPLE */
+
+
+  .peo-img > img {
+    width: 100%;
+    max-width: 420px;
+  }
+
+  .peo-abs img {
+    width: 120px;
+  }
+
+    /* PEOPLE */
+
+
+
+
+
 }
 
 
@@ -349,6 +398,9 @@
 
 
     /* HERO */
+#hero{
+    margin-bottom: 40px;
+}
 
 .hero-content{
         .hero{
@@ -437,6 +489,54 @@
     }
 
     /* HERO */
+
+
+
+
+        /* PEOPLE */
+
+  .peo-img > img{
+    width: 300px;
+  }
+
+      .people {
+        display: flex;
+        .peo-text {
+            .span-peo{
+                margin-top: 0px;
+                span{
+                font-size: 10px;
+                
+                }
+            }
+            h2{
+            font-size: 25px;
+            line-height: 30px;
+            }
+            p{
+                font-size: 13px;
+            }
+        }
+        
+    }
+    .peo-img img{
+    width: 268px;
+  }
+    .peo-text{
+        padding-right: 50px;
+    }
+  
+  .peo-abs {
+    display: none;
+  }
+
+  .btn-peo button{
+    padding: 10px 20px;
+    font-size: 10px;
+  }
+
+
+    /* PEOPLE */
 
 }
 
@@ -591,6 +691,49 @@
     }
 
     /* HERO */
+
+
+
+
+
+        /* PEOPLE */
+    .people {
+        display: flex;
+        .peo-text {
+            .span-peo{
+                margin-top: 0px;
+                span{
+                font-size: 10px;
+                
+                }
+            }
+            h2{
+            font-size: 25px;
+            line-height: 30px;
+            }
+            p{
+                font-size: 13px;
+            }
+        }
+        
+    }
+    .peo-img img{
+    width: 268px;
+  }
+    .peo-text{
+        padding-right: 50px;
+    }
+  
+  .peo-abs {
+    display: none;
+  }
+
+  .btn-peo button{
+    padding: 10px 20px;
+    font-size: 10px;
+  }
+
+    /* PEOPLE */
 
 }
 
