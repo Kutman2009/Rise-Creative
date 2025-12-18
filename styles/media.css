@@ -1290,3 +1290,53 @@
 }
 
  
+
+
+
+
+
+
+
+
+
+
+/* AZIZA */
+
+/* ================= ADAPTIVE ================= */
+
+@media (max-width: 1040px) {
+
+
+  .card {
+    width: 48%;
+  }
+
+}
+
+@media (max-width: 800px) {
+  .card {
+    width: 100%;
+  }
+}
+
+@media (max-width: 560px) {
+
+
+  .Business {
+    font-size: 16px;
+  }
+
+}
+
+@media (max-width: 320px) {
+
+
+  .our {
+    width: 130px;
+    height: 40px;
+  }
+
+
+}
+
+/* AZIZA */

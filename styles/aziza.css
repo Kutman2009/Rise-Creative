@@ -1,0 +1,102 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+/* CONTAINER */
+.container {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* ---------- TOP TEXT ---------- */
+.aziza {
+  text-align: center;
+}
+
+.our {
+  margin: 0 auto;
+  width: 158px;
+  height: 44px;
+  border-radius: 100px;
+  border: none;
+  background: #f0e71433;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.our:hover {
+  background: #101c26;
+  color: #f5ed07;
+  transform: scale(1.08);
+}
+
+.What,
+.where {
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.where {
+  margin-top: -15px;
+}
+
+.Business {
+  font-size: 20px;
+  color: #555c68;
+  margin-top: 20px;
+}
+
+.point {
+  font-size: 25px;
+  color: #555c68;
+}
+
+/* ---------- CARDS ---------- */
+.big-cart {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+
+.card {
+  width: 260px;
+  height: 250px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  margin-bottom: 50px;
+  transition: 0.3s;
+}
+
+.card:hover {
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+  transform: translateY(-5px);
+}
+
+.kw {
+  width: 60px;
+  margin: 20px;
+}
+
+.first {
+  font-size: 24px;
+  font-weight: 600;
+  padding: 0 20px;
+}
+
+.vacancy {
+  font-size: 18px;
+  color: #555c68;
+  padding: 10px 20px;
+}
+
+
+
