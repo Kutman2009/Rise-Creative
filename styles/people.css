@@ -1,0 +1,84 @@
+
+/* ---------- PEOPLE SECTION ---------- */
+.people {
+  display: flex;
+  align-items: center;
+  /* img{
+    padding-right: 50px;
+  } */
+}
+
+.peo-img {
+  position: relative;
+}
+
+.peo-img > img {
+  max-width: 1020px;
+  position: relative;
+  z-index: 2;
+}
+
+/* DOTS */
+.peo-abs {
+  position: absolute;
+  left: -38px;
+  bottom: -42px;
+  z-index: 1;
+}
+
+/* .peo-abs img {
+  width: 150px;
+  opacity: 0.5;
+} */
+
+.peo-text {
+    padding-left: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.span-peo {
+  display: block;
+  margin-top: 20px; 
+}
+
+.span-peo span {
+  display: inline-block;
+  padding: 8px 16px;
+  background: rgba(240, 231, 20, 0.2);
+  border-radius: 20px;
+  font-size: 14px;
+}
+
+.peo-text h2 {
+  margin: 20px 0;
+  font-size: var(--peo-h2);
+}
+
+.peo-text p {
+  font-size: 18px;
+  color: #555c68;
+}
+
+.btn-peo button {
+  margin-top: 25px;
+  padding: 14px 30px;
+  border: none;
+  border-radius: 30px;
+  background: #0f172a;
+  color: var(--yellow);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn-peo button:hover {
+  background: #f0e714;
+  color: #0f172a;
+  transform: scale(1.08);
+}
+
+
+/* ---------- PEOPLE SECTION ---------- */
