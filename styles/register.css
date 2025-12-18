@@ -217,14 +217,7 @@
 }
 
 @media (max-width: 320px) {
-  img,
-  picture,
-  video,
-  canvas,
-  svg {
-    display: block;
-    max-width: 50px;
-  }
+
   .register-hero {
     & .right-div {
       input {

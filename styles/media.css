@@ -1153,7 +1153,7 @@
 
 
 
-@media (max-width: 320px){
+@media (max-width: 321px){
 
     /* EXPERT */
 
@@ -1220,68 +1220,6 @@
 
 
 
-
-
-
-
-
-@media (max-width: 320px){
-
-    /* EXPERT */
-
-    #expert {
-        padding-top: 30px;
-    }
-
-    .expert {
-        .ex-imp {
-            .ex-text {
-                span {
-                    font-size: 8px;
-                    padding: 3px 8px;
-                }
-                h2 {
-                    font-size: 18px;
-                    line-height: 22px;
-                }
-                p {
-                    font-size: 10px;
-                }
-            }
-            .ex-logo {
-                gap: 10px;
-                .ex-logo-text {
-                    gap: 6px;
-                    img {
-                        width: 30px;
-                    }
-                    .ex-logo-cont {
-                        h3 {
-                            font-size: 10px;
-                        }
-                        p {
-                            font-size: 9px;
-                        }
-                    }
-                }
-            }
-        }
-    }
-
-    .ex-img {
-        img {
-            width: 100%;
-            max-width: 250px;
-        }
-    }
-
-    .ex-img-abs {
-        display: none;
-    }
-
-    /* EXPERT */
-
-}
 
 @media (min-width: 1281px) {
     #hero{
@@ -1328,16 +1266,7 @@
 
 }
 
-@media (max-width: 320px) {
 
-
-  .our {
-    width: 130px;
-    height: 40px;
-  }
-
-
-}
 
 /* AZIZA */
 
@@ -1357,6 +1286,7 @@
 
 
 /* PROJECT */
+
 
 
 
