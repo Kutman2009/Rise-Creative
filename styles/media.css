@@ -62,15 +62,6 @@
 
 
 
-    /* PEOPLE */
-
-    /* PEOPLE */
-
-
-
-
-
-    /* EXPERT */
     .expert{
         .ex-imp{
             .ex-text{
@@ -200,6 +191,126 @@
 
 
 
+    /* PEOPLE */
+
+
+  .card {
+    width: 48%;
+  }
+
+  .people {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .peo-text {
+    margin-top: 30px;
+    .btn-peo button{
+    margin: 0 auto;
+    margin-top: 20px;
+    }
+  }
+
+  .peo-abs {
+    right: -25px;
+    bottom: -20px;
+  }
+
+    /* PEOPLE */
+
+    /* PEOPLE */
+
+
+  .card {
+    width: 48%;
+  }
+
+  .people {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .peo-text {
+    margin-top: 30px;
+    .btn-peo button{
+    margin: 0 auto;
+    margin-top: 20px;
+    }
+  }
+
+  .peo-abs {
+    right: -25px;
+    bottom: -20px;
+  }
+
+    /* PEOPLE */
+
+    /* EXPERT */
+
+    #expert {
+        padding-top: 80px;
+    }
+
+    .expert {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+    .ex-imp {
+        width: 100%;
+        .ex-text {
+            align-items: center;
+            span {
+                font-size: 13px;
+            }
+            h2 {
+                font-size: 32px;
+                line-height: 38px;
+                text-align: center;
+            }
+            p {
+                font-size: 16px;
+                text-align: center;
+            }
+        }
+        .ex-logo {
+            margin-top: 20px;
+            align-items: center;
+            gap: 20px;
+            .ex-logo-text {
+                justify-content: center;
+                gap: 15px;
+                .ex-logo-cont {
+                    h3 {
+                        font-size: 16px;
+                        text-align: left;
+                    }
+                    p {
+                        font-size: 14px;
+                        text-align: left;
+                    }
+                }
+            }
+        }
+    }
+
+    .ex-img {
+        margin-top: 30px;
+        img {
+            width: 100%;
+            max-width: 500px;
+        }
+        .ex-img-abs {
+            right: -20px;
+            bottom: -30px;
+            img {
+                width: 100px;
+            }
+        }
+    }
+
+    /* EXPERT */
 
     /* PEOPLE */
 
@@ -446,7 +557,6 @@
 
 
 
-
     /* PEOPLE */
 
 
@@ -515,7 +625,6 @@
     }
 
     /* EXPERT */
-
 }
 
 
@@ -581,6 +690,11 @@
     margin-bottom: 40px;
 }
     
+
+    #hero{
+        margin-bottom: 40px;
+    }
+
 .hero-content{
 
     
@@ -672,6 +786,13 @@
     /* HERO */
 
 
+
+
+    /* PEOPLE */
+
+
+
+    
 
 
 
@@ -929,7 +1050,9 @@
 
 
 
-    /* PEOPLE */
+
+
+        /* PEOPLE */
     .people {
         display: flex;
         .peo-text {
@@ -1026,6 +1149,67 @@
 
 
 
+
+
+
+
+@media (max-width: 320px){
+
+    /* EXPERT */
+
+    #expert {
+        padding-top: 30px;
+    }
+
+    .expert {
+        .ex-imp {
+            .ex-text {
+                span {
+                    font-size: 8px;
+                    padding: 3px 8px;
+                }
+                h2 {
+                    font-size: 18px;
+                    line-height: 22px;
+                }
+                p {
+                    font-size: 10px;
+                }
+            }
+            .ex-logo {
+                gap: 10px;
+                .ex-logo-text {
+                    gap: 6px;
+                    img {
+                        width: 30px;
+                    }
+                    .ex-logo-cont {
+                        h3 {
+                            font-size: 10px;
+                        }
+                        p {
+                            font-size: 9px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .ex-img {
+        img {
+            width: 100%;
+            max-width: 250px;
+        }
+    }
+
+    .ex-img-abs {
+        display: none;
+    }
+
+    /* EXPERT */
+
+}
 
 
 
