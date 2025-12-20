@@ -42,7 +42,7 @@
 
     .first-review {
       position: relative;
-
+      
       display: flex;
       align-items: center;
       justify-content: center;
@@ -90,6 +90,10 @@
           font-size: 12px;
         }
       }
+      &:hover{
+            transform: scale(1.1);
+            transition: 0.6s;
+        }
     }
   }
 
@@ -146,6 +150,10 @@
         font-size: 12px;
       }
     }
+    &:hover{
+            transform: scale(1.1);
+            transition: 0.6s;
+        }
   }
 
   .threeth-review {
@@ -197,6 +205,10 @@
         font-size: 12px;
       }
     }
+    &:hover{
+            transform: scale(1.1);
+            transition: 0.6s;
+        }
   }
 }
 

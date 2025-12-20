@@ -4,8 +4,6 @@
     font-family: Arial, sans-serif;
   }
   
-
-
   .important-footer{
     max-width: 1280px;
     margin: auto;
@@ -14,9 +12,8 @@
     grid-template-columns: repeat(5, 1fr);
     gap: 40px;
   }
-  
-  /* BRAND */
-  .footer-brand .logo {
+
+  .footer-brand img {
     font-size: 28px;
     color: #fff;
     margin-bottom: 15px;
@@ -81,6 +78,12 @@
     display: flex;
     align-items: center;
     gap: 10px;
+  }
+
+  .footer-column.contact ul li:hover {
+    cursor: pointer;
+    color: #F0E714;
+    transition: 0.5s;
   }
   
   .footer-column.contact img {

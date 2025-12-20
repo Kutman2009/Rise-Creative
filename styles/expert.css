@@ -41,19 +41,18 @@
                 display: flex;
                 gap: 20px;
                 align-items: flex-start;
-                .ex-logo-cont{
-                    h3{
-                        font-size: 20px;
-                        font-weight: 600;
-                        color: #24272E;
-                        padding-bottom: 8px;
-                    }
-                    p{
-                        font-size: 16;
-                        font-weight: 400;
-                        color: #555C68;
-                    }
-                    
+            }
+            .ex-logo-cont{
+                h3{
+                    font-size: 20px;
+                    font-weight: 600;
+                    color: #24272E;
+                    padding-bottom: 8px;
+                }
+                p{
+                    font-size: 16;
+                    font-weight: 400;
+                    color: #555C68;
                 }
             }
         }

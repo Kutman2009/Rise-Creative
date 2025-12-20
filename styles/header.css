@@ -1,32 +1,3 @@
-/* #header {
-position: relative;
-}
-/* .background{
-background-image: url(../img/узоры.png);
-  background-color: var(--background);
-  background-repeat: no-repeat;
-  background-position: bottom;
-  background-size: cover;
-  width: 100%;
-  height: 900px;
-}
- /* обратись к background-image и дай ему position: absolute; */
-/* .background::before {
-
-  content: "";
-  position: absolute;
-  top: 0;
-  bottom: 100000000000px;
-  left: 0;
-  width: 100%;
-  height: 900px;
-  background-image: url(../img/узоры.png);
-  background-repeat: no-repeat;
-  background-position: bottom;
-  background-size: cover;
-  z-index: -1;
-  opacity: 0.1;
-}  */
 
 #header {
     background-color: var(--background);
@@ -54,6 +25,7 @@ background-image: url(../img/узоры.png);
             transition: border-bottom 0.3s;
             &:hover{
                 border-bottom: 2px solid var(--a-tag);
+                transition: 0.5s;
             }
         }
     }
@@ -76,6 +48,8 @@ background-image: url(../img/узоры.png);
         &:hover{
             background-color: var(--yellow);
             color: black;
+            transform: scale(1.1);
+            transition: 0.6s;
         }
         }
         button:last-child{
@@ -91,6 +65,8 @@ background-image: url(../img/узоры.png);
         &:hover{
             background-color: var(--dark-light);
             color: white;
+            transform: scale(1.1);
+            transition: 0.6s;
         }
         }
     }

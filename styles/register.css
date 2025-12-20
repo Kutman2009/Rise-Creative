@@ -37,21 +37,24 @@
     }
     .located {
       display: flex;
-      align-items: start;
+      align-items: center;
       text-align: start;
-      gap: 8px;
+      gap: 12px;
       margin-top: 30px;
       color: #555c68;
+      
     }
     .located:hover {
       cursor: pointer;
       p {
         color: #d6d60f;
+        transition: 0.3s;
+
       }
     }
     .contact {
       display: flex;
-      gap: 5px;
+      gap: 12px;
       margin-top: 10px;
       color: #555c68;
     }
@@ -59,17 +62,20 @@
       cursor: pointer;
       p {
         color: #d6d60f;
+        transition: 0.3s;
+
       }
     }
     .email {
       display: flex;
-      gap: 8px;
+      gap: 12px;
       margin-top: 10px;
       color: #555c68;
     }
     .email:hover {
       cursor: pointer;
       p {
+        transition: 0.3s;
         color: #d6d60f;
       }
     }
@@ -85,6 +91,7 @@
     align-items: center;
     justify-content: center;
     color: white;
+    
 
     input {
       width: 540px;
@@ -100,6 +107,7 @@
     input:hover {
       border-bottom: 2px solid #f0e714;
       background: #050313;
+      transition: 0.5s;
     }
 
     button {
@@ -116,6 +124,8 @@
     }
     button:hover {
       background-color: #d6d60f;
+      transition: 0.6s;
+      transform: scale(1.1);
     }
   }
 }

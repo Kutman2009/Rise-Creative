@@ -549,6 +549,9 @@
         }
     }
 
+    .star-hero{
+        display: none;
+    }
     /* HERO */
 
 
