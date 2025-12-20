@@ -639,6 +639,16 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
 @media (max-width: 560px){
 
 
@@ -654,9 +664,9 @@
                 }
             }
             .nav{
-                gap: 3px;
+                gap: 8px;
                 a{
-                    font-size: 10px;
+                    font-size: 8px;
                 }
             }
             .btn-sign{
@@ -855,8 +865,8 @@
                     padding: 5px 12px;
                 }
                 h2 {
-                    font-size: 22px;
-                    line-height: 28px;
+                    font-size: 24px !important;
+                    line-height: 28px !important;
                 }
                 p {
                     font-size: 12px;
@@ -923,9 +933,9 @@
                 }
             }
             .nav{
-                gap: 3px;
+                gap: 7px;
                 a{
-                    font-size: 8px;
+                    font-size: 7px;
                 }
             }
             .btn-sign{
@@ -1257,7 +1267,24 @@
   }
 }
 
+
+@media (max-width: 599px) {
+    .card{
+        margin: 0 auto;
+    }
+}
+
+
+
 @media (max-width: 560px) {
+    .aziza{
+        h1{
+            font-size: 33px;
+        }
+    }
+
+    
+
 
 
   .Business {
@@ -1280,12 +1307,24 @@
 
 
 
+/* EXPERT */
 
-/* PROJECT */
+@media (min-width: 1040px) and (max-width: 1340px) {
+    .expert{
+        .ex-img{
+            .ex-img-abs{
+                img{
+                    display: none;
+                }
+            }
+        }
+    }
+}
+
+/* EXPERT */
 
 
 
-/* PROJECT */
 
 
 

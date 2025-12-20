@@ -146,7 +146,7 @@
 }
 
 /* ====== <= 320px ====== */
-@media (max-width: 380px) {
+@media (max-width: 405px) {
   .footer-container {
     grid-template-columns: 1fr;
     text-align: center;
